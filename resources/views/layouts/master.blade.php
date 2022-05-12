@@ -13,7 +13,7 @@
 <body class="bg-slate-50 font-robotoMono">
     <div class="w-full">
         @include('layouts.navbar')
-        <div class="container mx-auto md:py-2 border-2 md:px-4 rounded border-x-slate-400 border-b-slate-400">
+        <div class="container mx-auto md:pt-16 pt-12 md:pb-2 border-2 md:px-4 bg-slate-900 text-white rounded border-x-slate-400 border-b-slate-400">
             @yield('content')
         </div>
 </body>

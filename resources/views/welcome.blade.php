@@ -1,7 +1,10 @@
 @extends('layouts.master')
 @section('content')
-    {{-- slider components --}}
-    <x-slider />
+    @if (request('action') == 'menu')
+        <x-order-menu />
+    @else
+        <x-slider />
+    @endif
 @endsection
 @section('styles')
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />

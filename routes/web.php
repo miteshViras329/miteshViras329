@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::redirect('/', '/drive');
+Route::get('drive', function () {
     return view('welcome');
-});
+})->name('main');
