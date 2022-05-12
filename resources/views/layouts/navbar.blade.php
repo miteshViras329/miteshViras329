@@ -14,7 +14,7 @@
             <a href="#"><img src="{{ asset('assets/svg/cart-svgrepo-com.svg') }}" class="h-10" alt=""></a>
             <span class="relative border border-purple-500 bottom-1 right-3  rounded-full text-xs bg-purple-400 pt-1 font-bold text-center h-6 w-6">1</span>
         </button>
-        <ul id="showCart" class="w-52 bg-white border shadow-lg rounded pl-1 pr-2 absolute space-y-2 md:top-12 top-[52px] right-0 hidden">
+        <ul id="showCart" class="w-52 bg-white border shadow-lg rounded pl-1 pr-2 absolute space-y-2 md:top-12 top-[52px] z-50 right-0 hidden">
             <li class="border-b-[1px]">20rs item 1</li>
             <li class="border-b-[1px]">300rs item 2</li>
             <li class="border-b-[1px]">457rs item 3</li>
@@ -24,7 +24,7 @@
         <button class="md:hidden border border-slate-500 px-2 py-2 rounded items-center" id="hamburger"><img src="{{ asset('assets/svg/hamburger-menu-svgrepo-com.svg') }}" class="h-8" alt="" srcset=""></button>
     </div>
 </nav>
-<ul id="showHamburger" class="absolute w-full z-10 bg-white text-xl space-y-2 px-5 py-2 border shadow-md md:hidden hidden">
+<ul id="showHamburger" class="absolute w-full z-50 bg-white text-xl space-y-2 px-5 py-2 border shadow-md md:hidden hidden">
     <li class="border-b-[1px]"><a href="#" class="hover:text-blue-600 transition-all duration-300">Home</a></li>
     <li class="border-b-[1px]"><a href="#" class="hover:text-blue-600 transition-all duration-300">Menu</a></li>
     <li class="border-b-[1px]"><a href="#" class="hover:text-blue-600 transition-all duration-300">Category</a></li>
