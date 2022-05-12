@@ -26,8 +26,8 @@
         </div>
     </nav>
     <ul id="showHamburger" class="absolute w-full z-50 bg-white text-xl space-y-2 px-5 py-2 border shadow-md md:hidden hidden">
-        <li class="border-b-[1px]"><a href="#" class="hover:text-blue-600 transition-all duration-300">Home</a></li>
-        <li class="border-b-[1px]"><a href="#" class="hover:text-blue-600 transition-all duration-300">Menu</a></li>
+        <li class="border-b-[1px]"><a href="{{ route('main') }}" class="hover:text-blue-600 transition-all duration-300">Home</a></li>
+        <li class="border-b-[1px]"><a href="{{ route('main') }}?action=menu" class="hover:text-blue-600 transition-all duration-300">Menu</a></li>
         <li class="border-b-[1px]"><a href="#" class="hover:text-blue-600 transition-all duration-300">Category</a></li>
         <li class="border-b-[1px]"><a href="#" class="hover:text-blue-600 transition-all duration-300">Contact</a></li>
     </ul>

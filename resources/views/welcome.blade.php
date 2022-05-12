@@ -2,6 +2,7 @@
 @section('content')
     @if (request('action') == 'menu')
         <x-order-menu />
+        {{-- <x-menu /> --}}
     @else
         <x-slider />
     @endif
